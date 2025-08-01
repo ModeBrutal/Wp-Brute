@@ -1,4 +1,5 @@
 # ModeBrutal — WordPress Brute Force Tool
+![WP Brute Banner](https://github.com/ModeBrutal/Wp-Brute/raw/main/IMG_20250801_121143.jpg)
 
 🚀 **Aggressive WordPress Login Cracker**  
 By **X'Boy Linux** | Tool Project: `ModeBrutal`
