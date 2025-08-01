@@ -6,8 +6,8 @@ from urllib.parse import urljoin
 from concurrent.futures import ThreadPoolExecutor
 # Fungsi untuk kirim pesan ke Telegram
 def kirim_telegram(pesan):
-    token = "8494882307:AAGATJsOGaDyWWGSSUEhCEgfU6vfNwnWDxI"
-    chat_id = "7847996737"
+    token = "TOKEN_ID"
+    chat_id = "CHAT_ID"
     url = f"https://api.telegram.org/bot{token}/sendMessage"
     data = {
         "chat_id": chat_id,
